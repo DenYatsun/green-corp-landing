@@ -132,7 +132,7 @@ opacity: 0.8;
 
 .form__submit {
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-top: 40px;
 }
 
@@ -164,7 +164,10 @@ button:hover {
 }
 
 .footer {
-  margin: 90px 20px 90px 20px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 16px;
   font-weight: 600;
 }
@@ -172,6 +175,7 @@ button:hover {
 .footer__container {
   display: flex;
   justify-content: center;
+  
 }
 
 .footer__copyright {
@@ -196,5 +200,5 @@ h3 {
 }
 
 a {
-  padding-bottom:15px;
+  margin-bottom:15px;
 }
